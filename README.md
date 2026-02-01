@@ -1,16 +1,62 @@
-# React + Vite
+# 🚀 React + API Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de ejemplo desarrollado con **React** y **Vite**. El objetivo principal es demostrar la integración de una API externa, el manejo de estados y la renderización dinámica de componentes.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* ⚡ **Vite:** Configuración ultra rápida para el entorno de desarrollo.
+* ⚛️ **React 19:** Uso de Hooks (`useState`, `useEffect`) para lógica reactiva.
+* 🌐 **Consumo de API:** Ejemplo práctico de peticiones asíncronas.
+* 🧩 **Componentización:** Estructura modular y reutilizable.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🛠️ Instalación y Configuración
 
-## Expanding the ESLint configuration
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clona el repositorio:**
+```bash
+git clone https://github.com/tu-usuario/nombre-del-proyecto.git
+cd nombre-del-proyecto
+
+```
+
+
+2. **Instala las dependencias:**
+Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
+```bash
+npm install
+
+```
+
+
+3. **Inicia el servidor de desarrollo:**
+```bash
+npm run dev
+
+```
+
+
+4. **¡Listo!**
+Abre tu navegador en [http://localhost:5173](http://localhost:5173) para ver la aplicación en acción.
+
+---
+
+## 📂 Estructura del Proyecto
+
+* `src/components/`: Componentes visuales reutilizables.
+* `src/App.jsx`: Punto de entrada principal de la aplicación.
+* `public/`: Recursos estáticos (imágenes, iconos).
+
+## 📝 Scripts Disponibles
+
+* `npm run dev`: Inicia el modo desarrollo con HMR (Hot Module Replacement).
+* `npm run build`: Genera los archivos optimizados para producción en la carpeta `dist/`.
+* `npm run preview`: Permite previsualizar la build de producción localmente.
+
+---
+
+**Nota:** Este proyecto utiliza el plugin oficial de [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react) para Fast Refresh y soporte de Babel.
+
+---
