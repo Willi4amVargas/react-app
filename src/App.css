@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+label {
+  padding: 10px 0px;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 50%;
+  margin: 0 auto;
+}
+
+select {
+  margin: 10px auto 20px auto;
+  width: 50%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ul {
+    display: flex;
+    gap: 0px 10px;
+    list-style: none;
+    align-items: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  max-height: 28rem;
+  overflow-y: auto;
+}
+
+span {
+  border: 1px solid black;
+  padding: 2px;
+  margin: 2px 1px;
+}
